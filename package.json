@@ -1,0 +1,30 @@
+{
+  "name": "javascript-types",
+  "version": "1.0.0",
+  "description": "## Instructions",
+  "main": "script.js",
+  
+    "scripts": {
+      "test": "mocha test --watch --bail --require ./test/test.bootstrap.js"
+    },
+    "dependencies": {
+      "chai": "^4.1.2",
+      "jest": "^27.4.7",
+      "mocha": "^9.1.4"
+    },
+    "jest": {
+      "verbose": true,
+      "testURL": "http://localhost/"
+    },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perscholas-blended/Javascript-Types.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/perscholas-blended/Javascript-Types/issues"
+  },
+  "homepage": "https://github.com/perscholas-blended/Javascript-Types#readme"
+}
